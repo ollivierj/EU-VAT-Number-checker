@@ -5205,10 +5205,10 @@ function create_fragment$6(ctx) {
 				},
 				site_nav: [
 					{
-						"link": { "url": "/", "label": "Product" }
+						"link": { "url": "/product", "label": "Product" }
 					},
 					{
-						"link": { "url": "/", "label": "Pricing" }
+						"link": { "url": "/pricing", "label": "Pricing" }
 					},
 					{
 						"link": { "url": "/", "label": "Contact" }
