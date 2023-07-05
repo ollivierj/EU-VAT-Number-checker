@@ -238,6 +238,98 @@
             }
         }
 
+        .svelte-16pn5km.svelte-16pn5km {
+            position: relative;
+            z-index: 1
+        }
+
+        .section-container.svelte-16pn5km.svelte-16pn5km {
+            display: grid;
+            gap: 3.5rem;
+            max-width: var(--inner-max-width);
+            padding-block: 5rem;
+            position: relative
+        }
+
+        .headline.svelte-16pn5km.svelte-16pn5km {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: clamp(2rem, 10vw, 5rem);
+            line-height: 1;
+            letter-spacing: -0.04rem;
+            font-weight: 700;
+            text-align: center;
+            text-wrap: balance
+        }
+
+        form.svelte-16pn5km.svelte-16pn5km {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            max-width: 400px;
+            justify-self: center
+        }
+
+        form.svelte-16pn5km label.svelte-16pn5km {
+            flex: 1
+        }
+
+        form.svelte-16pn5km label input.svelte-16pn5km {
+            width: 100%;
+            padding: 0.6rem 0.75rem;
+            outline-color: transparent;
+            transition: 0.1s outline-color;
+            border: 1.5px solid var(--border-color, #eee);
+            font-weight: 300;
+            border-radius: 0.25rem
+        }
+
+        form.svelte-16pn5km label input.svelte-16pn5km:focus {
+            outline-color: var(--color-accent, rebeccapurple)
+        }
+
+        .message.svelte-16pn5km.svelte-16pn5km {
+            text-align: center;
+            background: var(--background, white);
+            padding: 1rem;
+            box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 0.25rem
+        }
+
+        .message.error.svelte-16pn5km.svelte-16pn5km {
+            border: 2px solid red
+        }
+
+        @media(prefers-reduced-motion) {}
+
+        @-webkit-keyframes svelte-16pn5km-left-float {
+            to {
+                rotate: 5deg;
+                transform: translateX(20px)
+            }
+        }
+
+        @keyframes svelte-16pn5km-left-float {
+            to {
+                rotate: 5deg;
+                transform: translateX(20px)
+            }
+        }
+
+        @-webkit-keyframes svelte-16pn5km-right-float {
+            to {
+                rotate: -20deg;
+                transform: translateX(-20px)
+            }
+        }
+
+        @keyframes svelte-16pn5km-right-float {
+            to {
+                rotate: -20deg;
+                transform: translateX(-20px)
+            }
+        }
+
         footer.svelte-5m5swo.svelte-5m5swo {
             border-top: 1px solid var(--border-color, #e5e5e7)
         }
@@ -305,6 +397,14 @@
                 </div>
             </div>
         </header>
+    </div>
+    <div class="section svelte-16pn5km" id="section-1d99ab2f">
+        <section class="section-container svelte-16pn5km">
+            <h1 class="headline svelte-16pn5km">Verify an EU VAT number</h1>
+            <form class="svelte-16pn5km"><label class="svelte-16pn5km"><input required name="vatnumber" type="text" placeholder="VAT Number" class="svelte-16pn5km"></label>
+                <button class="button svelte-16pn5km" type="submit"></button>
+            </form>
+        </section>
     </div>
     <div class="section" id="section-c15a676e">
         <footer class="svelte-5m5swo">
